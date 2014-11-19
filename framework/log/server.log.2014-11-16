@@ -1,0 +1,194 @@
+2014-11-16 12:45:13.785  INFO [Server.java:19] - Server start
+2014-11-16 12:49:02.546  INFO [Server.java:19] - Server start
+2014-11-16 12:49:52.178  INFO [Server.java:19] - Server start
+2014-11-16 12:50:29.149  INFO [Server.java:19] - Server start
+2014-11-16 12:51:21.413  INFO [Server.java:19] - Server start
+2014-11-16 12:51:32.149  INFO [Server.java:19] - Server start
+2014-11-16 12:51:53.993  INFO [Server.java:19] - Server start
+2014-11-16 12:52:25.965  INFO [Server.java:19] - Server start
+2014-11-16 12:54:37.345  INFO [Server.java:19] - Server start
+2014-11-16 12:57:16.622  INFO [Server.java:19] - Server start
+2014-11-16 12:57:34.861  INFO [Server.java:19] - Server start
+2014-11-16 12:57:42.103  INFO [Server.java:19] - Server start
+2014-11-16 12:58:51.468  INFO [Server.java:19] - Server start
+2014-11-16 13:01:41.135  INFO [Server.java:19] - Server start
+2014-11-16 13:02:17.025  INFO [Server.java:19] - Server start
+2014-11-16 13:02:30.131  INFO [Server.java:19] - Server start
+2014-11-16 13:02:47.386  INFO [Server.java:19] - Server start
+2014-11-16 13:02:47.398  INFO [Service.java:49] - Loading Properties And Add Servants
+2014-11-16 13:46:18.352  INFO [Server.java:29] - Start IceUtil Server
+2014-11-16 13:46:18.821  INFO [IceUtilService.java:37] - Loading Properties And Add Servants
+2014-11-16 13:47:02.706  INFO [Server.java:29] - Start IceUtil Server
+2014-11-16 13:47:02.831  INFO [IceUtilService.java:37] - Loading Properties And Add Servants
+2014-11-16 13:48:07.447  INFO [Server.java:29] - Start IceUtil Server
+2014-11-16 13:48:07.572  INFO [IceUtilService.java:37] - Loading Properties And Add Servants
+2014-11-16 13:57:20.547  INFO [Server.java:29] - Start IceUtil Server
+2014-11-16 13:57:20.672  INFO [IceUtilService.java:37] - Loading Properties
+2014-11-16 13:57:20.750  INFO [IceUtilService.java:49] - Add Servants
+2014-11-16 14:24:04.466  INFO [Server.java:29] - Start IceUtil Server
+2014-11-16 14:26:41.292  INFO [Server.java:29] - Start IceUtil Server
+2014-11-16 14:26:41.462 DEBUG [IceUtilService.java:21] - IceUtilService static initial
+2014-11-16 15:21:41.594  INFO [Server.java:22] - Start IceApplication Server
+2014-11-16 15:21:41.609  INFO [IceApplicationService.java:52] - Loading Properties And Add Servants
+2014-11-16 15:21:41.609  INFO [IceApplicationService.java:127] - CreateThread doMain() start
+2014-11-16 15:23:41.671  INFO [Server.java:22] - Start IceApplication Server
+2014-11-16 15:23:41.687  INFO [IceApplicationService.java:133] - CreateThread doMain() start
+2014-11-16 15:23:41.843  INFO [IceApplicationService.java:157] - RPCApplication waitForShutdown
+2014-11-16 15:23:41.843  INFO [IceApplicationService.java:53] - Loading Properties And Add Servants
+2014-11-16 15:42:21.264  INFO [Server.java:22] - Start IceApplication Server
+2014-11-16 15:42:21.279  INFO [IceApplicationService.java:98] - Ice.Application.main()
+2014-11-16 15:42:21.451  INFO [IceApplicationService.java:124] - RPCApplication waitForShutdown
+2014-11-16 15:42:21.451  INFO [IceApplicationService.java:37] - Loading Properties And Add Servants
+2014-11-16 15:42:48.448  INFO [Server.java:22] - Start IceApplication Server
+2014-11-16 15:42:48.464  INFO [IceApplicationService.java:98] - Ice.Application.main()
+2014-11-16 15:42:48.604  INFO [IceApplicationService.java:124] - RPCApplication waitForShutdown
+2014-11-16 15:42:48.620  INFO [IceApplicationService.java:37] - Loading Properties And Add Servants
+2014-11-16 15:49:28.479  INFO [Server.java:22] - Start IceApplication Server
+2014-11-16 15:49:28.495  INFO [IceApplicationService.java:100] - Ice.Application.main()
+2014-11-16 15:49:28.682  INFO [IceApplicationService.java:126] - RPCApplication waitForShutdown
+2014-11-16 15:49:28.682  INFO [IceApplicationService.java:37] - Loading Properties And Add Servants
+2014-11-16 16:51:12.406  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 16:51:12.453  INFO [IceApplicationService.java:98] - Ice.Application.main()
+2014-11-16 16:51:12.612  INFO [IceApplicationService.java:124] - RPCApplication waitForShutdown
+2014-11-16 16:51:12.612  INFO [IceApplicationService.java:37] - Loading Properties And Add Servants
+2014-11-16 16:51:51.577  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 16:51:51.577  INFO [IceApplicationService.java:98] - Ice.Application.main()
+2014-11-16 16:51:51.749  INFO [IceApplicationService.java:124] - RPCApplication waitForShutdown
+2014-11-16 16:51:51.749  INFO [IceApplicationService.java:37] - Loading Properties And Add Servants
+2014-11-16 17:17:38.374  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 17:17:38.389  INFO [IceApplicationService.java:88] - Ice.Application.main()
+2014-11-16 17:17:38.609  INFO [IceApplicationService.java:114] - RPCApplication waitForShutdown
+2014-11-16 17:17:38.609  INFO [IceApplicationService.java:50] - Loading Properties And Add Servants
+2014-11-16 17:17:51.981  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 17:17:51.996  INFO [IceApplicationService.java:88] - Ice.Application.main()
+2014-11-16 17:17:52.168  INFO [IceApplicationService.java:114] - RPCApplication waitForShutdown
+2014-11-16 17:17:52.168  INFO [IceApplicationService.java:50] - Loading Properties And Add Servants
+2014-11-16 17:18:15.610  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 17:18:15.625  INFO [IceApplicationService.java:88] - Ice.Application.main()
+2014-11-16 17:18:15.797  INFO [IceApplicationService.java:114] - RPCApplication waitForShutdown
+2014-11-16 17:18:15.797  INFO [IceApplicationService.java:50] - Loading Properties And Add Servants
+2014-11-16 17:18:26.066  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 17:18:26.066  INFO [IceApplicationService.java:88] - Ice.Application.main()
+2014-11-16 17:18:26.237  INFO [IceApplicationService.java:114] - RPCApplication waitForShutdown
+2014-11-16 17:18:26.253  INFO [IceApplicationService.java:50] - Loading Properties And Add Servants
+2014-11-16 17:35:03.479  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 17:35:03.526  INFO [IceApplicationService.java:96] - Ice.Application.main()
+2014-11-16 17:35:03.933  INFO [IceApplicationService.java:122] - RPCApplication waitForShutdown
+2014-11-16 17:35:03.933  INFO [IceApplicationService.java:146] - setInterruptHook
+2014-11-16 17:35:03.979  INFO [IceApplicationService.java:153] - Communicator Start Destroy
+2014-11-16 17:35:03.979  INFO [IceApplicationService.java:155] - Communicator Destroy Over
+2014-11-16 17:36:48.419  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 17:36:48.450  INFO [IceApplicationService.java:96] - Ice.Application.main()
+2014-11-16 17:36:48.716  INFO [IceApplicationService.java:122] - RPCApplication waitForShutdown
+2014-11-16 17:36:48.716  INFO [IceApplicationService.java:146] - setInterruptHook
+2014-11-16 17:37:25.444  INFO [IceApplicationService.java:153] - Communicator Start Destroy
+2014-11-16 17:37:25.444  INFO [IceApplicationService.java:155] - Communicator Destroy Over
+2014-11-16 17:37:43.043  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 17:37:43.106  INFO [IceApplicationService.java:96] - Ice.Application.main()
+2014-11-16 17:37:43.230  INFO [IceApplicationService.java:122] - RPCApplication waitForShutdown
+2014-11-16 17:37:43.246  INFO [IceApplicationService.java:146] - setInterruptHook
+2014-11-16 17:37:43.246  INFO [IceApplicationService.java:53] - Loading Properties And Add Servants
+2014-11-16 17:37:46.182  INFO [IceApplicationService.java:153] - Communicator Start Destroy
+2014-11-16 17:37:46.182  INFO [IceApplicationService.java:155] - Communicator Destroy Over
+2014-11-16 17:38:06.297  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 17:38:06.375  INFO [IceApplicationService.java:96] - Ice.Application.main()
+2014-11-16 17:38:06.484  INFO [IceApplicationService.java:122] - RPCApplication waitForShutdown
+2014-11-16 17:38:06.484  INFO [IceApplicationService.java:146] - setInterruptHook
+2014-11-16 17:38:06.499  INFO [IceApplicationService.java:153] - Communicator Start Destroy
+2014-11-16 17:38:06.499  INFO [IceApplicationService.java:155] - Communicator Destroy Over
+2014-11-16 17:38:22.030  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 17:38:22.077  INFO [IceApplicationService.java:95] - Ice.Application.main()
+2014-11-16 17:38:22.202  INFO [IceApplicationService.java:121] - RPCApplication waitForShutdown
+2014-11-16 17:38:59.618  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 17:38:59.633  INFO [IceApplicationService.java:146] - setInterruptHook
+2014-11-16 17:38:59.680  INFO [IceApplicationService.java:96] - Ice.Application.main()
+2014-11-16 17:38:59.836  INFO [IceApplicationService.java:122] - RPCApplication waitForShutdown
+2014-11-16 17:40:02.424  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 17:40:02.440  INFO [IceApplicationService.java:147] - setInterruptHook
+2014-11-16 17:40:02.456  INFO [IceApplicationService.java:97] - Ice.Application.main()
+2014-11-16 17:40:02.612  INFO [IceApplicationService.java:123] - RPCApplication waitForShutdown
+2014-11-16 17:40:02.612  INFO [IceApplicationService.java:54] - Loading Properties And Add Servants
+2014-11-16 21:00:34.704  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 21:00:34.719  INFO [IceApplicationService.java:147] - setInterruptHook
+2014-11-16 21:00:34.750  INFO [IceApplicationService.java:97] - Ice.Application.main()
+2014-11-16 21:00:34.860  INFO [IceApplicationService.java:123] - RPCApplication waitForShutdown
+2014-11-16 21:00:34.860  INFO [IceApplicationService.java:54] - Loading Properties And Add Servants
+2014-11-16 21:00:37.683  INFO [IceApplicationService.java:136] - Add Servant : com.iceframework.HelloI --- Ice.Identity@288aa6e9
+2014-11-16 21:01:00.027  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 21:01:00.043  INFO [IceApplicationService.java:147] - setInterruptHook
+2014-11-16 21:01:00.059  INFO [IceApplicationService.java:97] - Ice.Application.main()
+2014-11-16 21:01:00.293  INFO [IceApplicationService.java:123] - RPCApplication waitForShutdown
+2014-11-16 21:01:00.293  INFO [IceApplicationService.java:54] - Loading Properties And Add Servants
+2014-11-16 21:01:03.101  INFO [IceApplicationService.java:136] - Add Servant : com.iceframework.HelloI --- Ice.Identity@288aa6e9
+2014-11-16 21:01:59.653  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 21:01:59.699  INFO [IceApplicationService.java:147] - setInterruptHook
+2014-11-16 21:01:59.699  INFO [IceApplicationService.java:97] - Ice.Application.main()
+2014-11-16 21:01:59.809  INFO [IceApplicationService.java:123] - RPCApplication waitForShutdown
+2014-11-16 21:01:59.809  INFO [IceApplicationService.java:54] - Loading Properties And Add Servants
+2014-11-16 21:02:02.804  INFO [IceApplicationService.java:136] - Add Servant : com.iceframework.HelloI --- Ice.Identity@288aa6e9
+2014-11-16 21:02:02.867 DEBUG [RpcCache.java:31] - arrays size : 1
+2014-11-16 21:02:35.566  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 21:02:35.566  INFO [IceApplicationService.java:147] - setInterruptHook
+2014-11-16 21:02:35.582  INFO [IceApplicationService.java:97] - Ice.Application.main()
+2014-11-16 21:02:35.738  INFO [IceApplicationService.java:123] - RPCApplication waitForShutdown
+2014-11-16 21:02:35.738  INFO [IceApplicationService.java:54] - Loading Properties And Add Servants
+2014-11-16 21:02:38.546  INFO [IceApplicationService.java:136] - Add Servant : com.iceframework.HelloI --- Ice.Identity@288aa6e9
+2014-11-16 21:02:38.596 DEBUG [RpcCache.java:31] - arrays size : 1
+2014-11-16 21:02:38.596 DEBUG [RpcCache.java:33] - array : LocatorPrx
+2014-11-16 21:03:21.529  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 21:03:21.544  INFO [IceApplicationService.java:147] - setInterruptHook
+2014-11-16 21:03:21.544  INFO [IceApplicationService.java:97] - Ice.Application.main()
+2014-11-16 21:03:21.685  INFO [IceApplicationService.java:123] - RPCApplication waitForShutdown
+2014-11-16 21:03:21.685  INFO [IceApplicationService.java:54] - Loading Properties And Add Servants
+2014-11-16 21:03:24.493  INFO [IceApplicationService.java:136] - Add Servant : com.iceframework.HelloI --- Ice.Identity@288aa6e9
+2014-11-16 21:03:24.556 DEBUG [RpcCache.java:29] - arrays size : 1
+2014-11-16 21:03:24.556 DEBUG [RpcCache.java:31] - array : LocatorPrx
+2014-11-16 21:04:33.665  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 21:04:33.665  INFO [IceApplicationService.java:147] - setInterruptHook
+2014-11-16 21:04:33.790  INFO [IceApplicationService.java:97] - Ice.Application.main()
+2014-11-16 21:04:33.977  INFO [IceApplicationService.java:123] - RPCApplication waitForShutdown
+2014-11-16 21:04:33.977  INFO [IceApplicationService.java:54] - Loading Properties And Add Servants
+2014-11-16 21:04:36.832  INFO [IceApplicationService.java:136] - Add Servant : com.iceframework.HelloI --- Ice.Identity@288aa6e9
+2014-11-16 21:22:18.322  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 21:22:18.322  INFO [IceApplicationService.java:155] - setInterruptHook
+2014-11-16 21:22:18.338  INFO [IceApplicationService.java:105] - Ice.Application.main()
+2014-11-16 21:22:18.494  INFO [IceApplicationService.java:131] - RPCApplication waitForShutdown
+2014-11-16 21:22:18.494  INFO [IceApplicationService.java:56] - Loading Properties And Add Servants
+2014-11-16 21:22:21.286  INFO [IceApplicationService.java:144] - Add Servant : com.iceframework.HelloI --- Ice.Identity@288aa6e9
+2014-11-16 21:22:21.350 DEBUG [RpcCache.java:30] - arrays size : 1
+2014-11-16 21:22:21.350 DEBUG [RpcCache.java:32] - array : LocatorPrx
+2014-11-16 21:37:53.483  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 21:37:53.499  INFO [IceApplicationService.java:155] - setInterruptHook
+2014-11-16 21:37:53.499  INFO [IceApplicationService.java:105] - Ice.Application.main()
+2014-11-16 21:37:53.639  INFO [IceApplicationService.java:131] - RPCApplication waitForShutdown
+2014-11-16 21:37:53.639  INFO [IceApplicationService.java:56] - Loading Properties And Add Servants
+2014-11-16 21:37:56.447  INFO [IceApplicationService.java:144] - Add Servant : com.iceframework.HelloI --- Ice.Identity@288aa6e9
+2014-11-16 21:37:56.511 DEBUG [RpcCache.java:30] - arrays size : 1
+2014-11-16 21:37:56.511 DEBUG [RpcCache.java:32] - array : LocatorPrx
+2014-11-16 21:39:46.383  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 21:39:46.398  INFO [IceApplicationService.java:155] - setInterruptHook
+2014-11-16 21:39:46.414  INFO [IceApplicationService.java:105] - Ice.Application.main()
+2014-11-16 21:39:46.539  INFO [IceApplicationService.java:131] - RPCApplication waitForShutdown
+2014-11-16 21:39:46.539  INFO [IceApplicationService.java:56] - Loading Properties And Add Servants
+2014-11-16 21:39:49.456  INFO [IceApplicationService.java:144] - Add Servant : com.iceframework.HelloI --- Ice.Identity@288aa6e9
+2014-11-16 21:39:49.519 DEBUG [RpcCache.java:30] - arrays size : 1
+2014-11-16 21:39:49.519 DEBUG [RpcCache.java:32] - array : HelloPrx
+2014-11-16 21:41:48.205  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 21:41:48.221  INFO [IceApplicationService.java:157] - setInterruptHook
+2014-11-16 21:41:48.221  INFO [IceApplicationService.java:107] - Ice.Application.main()
+2014-11-16 21:41:48.393  INFO [IceApplicationService.java:133] - RPCApplication waitForShutdown
+2014-11-16 21:41:48.408  INFO [IceApplicationService.java:56] - Loading Properties And Add Servants
+2014-11-16 21:41:48.439 DEBUG [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-16 21:41:51.232  INFO [IceApplicationService.java:146] - Add Servant : com.iceframework.HelloI --- Ice.Identity@288aa6e9
+2014-11-16 21:41:51.232 DEBUG [IceApplicationService.java:88] - Proxy Path :Demo
+2014-11-16 21:41:51.273 DEBUG [RpcCache.java:30] - arrays size : 1
+2014-11-16 21:41:51.273 DEBUG [RpcCache.java:32] - array : HelloPrx
+2014-11-16 21:45:02.874  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-16 21:45:02.874  INFO [IceApplicationService.java:157] - setInterruptHook
+2014-11-16 21:45:02.889  INFO [IceApplicationService.java:107] - Ice.Application.main()
+2014-11-16 21:45:03.030  INFO [IceApplicationService.java:133] - RPCApplication waitForShutdown
+2014-11-16 21:45:03.030  INFO [IceApplicationService.java:56] - Loading Properties And Add Servants
+2014-11-16 21:45:03.123  INFO [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-16 21:45:05.869  INFO [IceApplicationService.java:146] - Add Servant : com.iceframework.HelloI --- Ice.Identity@288aa6e9
+2014-11-16 21:45:05.869  INFO [IceApplicationService.java:88] - Proxy Path :Demo
+2014-11-16 21:45:05.917  INFO [RpcCache.java:31] - Loaded Proxy : HelloPrx

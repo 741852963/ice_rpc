@@ -1,0 +1,41 @@
+2014-09-27 18:56:11.874 DEBUG [Server.java:19] - Server start
+2014-09-27 18:56:11.899  INFO [Service.java:49] - start server
+2014-09-27 18:57:34.816  INFO [Server.java:19] - Server start
+2014-09-27 18:57:37.839  INFO [Service.java:56] - start server
+2014-09-27 19:00:22.148  INFO [Server.java:19] - Server start
+2014-09-27 19:00:32.155  INFO [Service.java:56] - start server
+2014-09-27 19:01:29.005  INFO [Server.java:19] - Server start
+2014-09-27 19:01:32.018  INFO [Service.java:58] - start server
+2014-09-27 19:05:10.097  INFO [Server.java:19] - Server start
+2014-09-27 19:05:13.105  INFO [Service.java:57] - start server
+2014-09-27 19:05:42.765  INFO [Server.java:19] - Server start
+2014-09-27 19:05:45.787  INFO [Service.java:57] - start server
+2014-09-27 19:07:34.511  INFO [Server.java:19] - Server start
+2014-09-27 19:07:37.516  INFO [Service.java:57] - start server
+2014-09-27 19:09:11.282  INFO [Server.java:19] - Server start
+2014-09-27 19:10:14.673  INFO [Server.java:19] - Server start
+2014-09-27 19:11:11.451  INFO [Server.java:19] - Server start
+2014-09-27 19:11:47.831  INFO [Server.java:19] - Server start
+2014-09-27 19:12:26.232  INFO [Server.java:19] - Server start
+2014-09-27 19:13:58.875  INFO [Server.java:19] - Server start
+2014-09-27 19:14:38.089  INFO [Server.java:19] - Server start
+2014-09-27 19:15:16.475  INFO [Server.java:19] - Server start
+2014-09-27 19:16:56.469  INFO [Server.java:19] - Server start
+2014-09-27 19:18:06.664  INFO [Server.java:19] - Server start
+2014-09-27 19:18:32.276  INFO [Server.java:19] - Server start
+2014-09-27 19:21:44.484  INFO [Server.java:19] - Server start
+2014-09-27 19:25:45.882  INFO [Server.java:19] - Server start
+2014-09-27 19:26:11.624  INFO [Server.java:19] - Server start
+2014-09-27 19:26:11.629  INFO [Service.java:45] - start server
+2014-09-27 19:26:11.629  INFO [Service.java:91] - new RPCApplication in a new thread
+2014-09-27 19:26:11.633  INFO [Service.java:93] - Application doMain() start
+2014-09-27 19:26:45.514  INFO [Server.java:19] - Server start
+2014-09-27 19:26:45.523  INFO [Service.java:45] - start server
+2014-09-27 19:26:45.523  INFO [Service.java:91] - new RPCApplication in a new thread
+2014-09-27 19:26:45.524  INFO [Service.java:93] - Application doMain() start
+2014-09-27 19:29:06.127  INFO [Server.java:19] - Server start
+2014-09-27 19:29:06.136  INFO [Service.java:46] - start server
+2014-09-27 19:29:06.136  INFO [Service.java:92] - new RPCApplication in a new thread
+2014-09-27 19:29:06.137  INFO [Service.java:94] - Application doMain() start
+2014-09-27 19:34:45.634  INFO [Server.java:19] - Server start
+2014-09-27 19:35:27.989  INFO [Server.java:19] - Server start

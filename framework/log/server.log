@@ -1,0 +1,301 @@
+2014-11-17 12:44:18.829  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-17 12:44:18.907  INFO [IceApplicationService.java:157] - setInterruptHook
+2014-11-17 12:44:19.178  INFO [IceApplicationService.java:107] - Ice.Application.main()
+2014-11-17 12:44:19.393  INFO [IceApplicationService.java:133] - RPCApplication waitForShutdown
+2014-11-17 12:44:19.393  INFO [IceApplicationService.java:56] - Loading Properties And Add Servants
+2014-11-17 12:44:19.487  INFO [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-17 12:44:23.605  INFO [IceApplicationService.java:146] - Add Servant : com.iceframework.HelloI --- Ice.Identity@288aa6e9
+2014-11-17 12:44:23.669  INFO [IceApplicationService.java:88] - Proxy Path :Demo
+2014-11-17 12:44:23.903  INFO [RpcCache.java:31] - Loaded Proxy : HelloPrx
+2014-11-17 13:07:34.566  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-17 13:07:34.608  INFO [IceApplicationService.java:157] - setInterruptHook
+2014-11-17 13:07:34.641  INFO [IceApplicationService.java:107] - Ice.Application.main()
+2014-11-17 13:07:34.779  INFO [IceApplicationService.java:133] - RPCApplication waitForShutdown
+2014-11-17 13:07:34.779  INFO [IceApplicationService.java:56] - Loading Properties And Add Servants
+2014-11-17 13:07:34.843  INFO [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-17 13:07:59.155  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-17 13:07:59.167  INFO [IceApplicationService.java:157] - setInterruptHook
+2014-11-17 13:07:59.175  INFO [IceApplicationService.java:107] - Ice.Application.main()
+2014-11-17 13:07:59.326  INFO [IceApplicationService.java:133] - RPCApplication waitForShutdown
+2014-11-17 13:07:59.327  INFO [IceApplicationService.java:56] - Loading Properties And Add Servants
+2014-11-17 13:07:59.407  INFO [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-17 13:08:30.588  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-17 13:08:30.599  INFO [IceApplicationService.java:157] - setInterruptHook
+2014-11-17 13:08:30.607  INFO [IceApplicationService.java:107] - Ice.Application.main()
+2014-11-17 13:08:30.741  INFO [IceApplicationService.java:133] - RPCApplication waitForShutdown
+2014-11-17 13:08:30.742  INFO [IceApplicationService.java:56] - Loading Properties And Add Servants
+2014-11-17 13:08:30.807  INFO [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-17 13:09:02.438  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-17 13:09:02.450  INFO [IceApplicationService.java:157] - setInterruptHook
+2014-11-17 13:09:02.458  INFO [IceApplicationService.java:107] - Ice.Application.main()
+2014-11-17 13:09:02.600  INFO [IceApplicationService.java:133] - RPCApplication waitForShutdown
+2014-11-17 13:09:02.601  INFO [IceApplicationService.java:56] - Loading Properties And Add Servants
+2014-11-17 13:09:02.650  INFO [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-17 13:20:50.320  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-17 13:20:50.332  INFO [IceApplicationService.java:155] - setInterruptHook
+2014-11-17 13:20:50.363  INFO [IceApplicationService.java:105] - Ice.Application.main()
+2014-11-17 13:20:50.508  INFO [IceApplicationService.java:131] - RPCApplication waitForShutdown
+2014-11-17 13:20:50.580  INFO [IceApplicationService.java:60] - Loading Properties And Add Servants
+2014-11-17 13:20:50.581  INFO [IceApplicationService.java:69] - Servant Home :com.iceframework
+2014-11-17 13:23:54.121  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-17 13:23:54.132  INFO [IceApplicationService.java:158] - setInterruptHook
+2014-11-17 13:23:54.143  INFO [IceApplicationService.java:105] - Ice.Application.main()
+2014-11-17 13:23:54.294  INFO [IceApplicationService.java:131] - RPCApplication waitForShutdown
+2014-11-17 13:23:54.372  INFO [IceApplicationService.java:60] - Loading Properties And Add Servants
+2014-11-17 13:23:54.373  INFO [IceApplicationService.java:69] - Servant Home :com.iceframework
+2014-11-17 13:24:10.620  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-17 13:24:10.638  INFO [IceApplicationService.java:158] - setInterruptHook
+2014-11-17 13:24:10.661  INFO [IceApplicationService.java:105] - Ice.Application.main()
+2014-11-17 13:24:10.812  INFO [IceApplicationService.java:131] - RPCApplication waitForShutdown
+2014-11-17 13:24:10.885  INFO [IceApplicationService.java:60] - Loading Properties And Add Servants
+2014-11-17 13:24:10.887  INFO [IceApplicationService.java:69] - Servant Home :com.iceframework
+2014-11-17 13:25:28.175  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-17 13:25:28.191  INFO [IceApplicationService.java:158] - setInterruptHook
+2014-11-17 13:25:28.218  INFO [IceApplicationService.java:105] - Ice.Application.main()
+2014-11-17 13:25:28.349  INFO [IceApplicationService.java:131] - RPCApplication waitForShutdown
+2014-11-17 13:25:28.422  INFO [IceApplicationService.java:60] - Loading Properties And Add Servants
+2014-11-17 13:25:28.423  INFO [IceApplicationService.java:69] - Servant Home :com.iceframework
+2014-11-17 13:25:31.115  INFO [IceApplicationService.java:147] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 13:25:31.145  INFO [IceApplicationService.java:86] - Proxy Path :Demo
+2014-11-17 13:25:31.206  INFO [RpcCache.java:31] - Loaded Proxy : Hello
+2014-11-17 13:33:36.223  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-17 13:33:36.235  INFO [IceApplicationService.java:160] - setInterruptHook
+2014-11-17 13:33:36.238  INFO [IceApplicationService.java:107] - Ice.Application.main()
+2014-11-17 13:33:36.377  INFO [IceApplicationService.java:133] - RPCApplication waitForShutdown
+2014-11-17 13:33:36.424  INFO [IceApplicationService.java:60] - Loading Properties And Add Servants
+2014-11-17 13:33:36.426  INFO [IceApplicationService.java:69] - Servant Home :com.iceframework
+2014-11-17 13:33:39.151  INFO [IceApplicationService.java:149] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 13:33:39.157  INFO [IceApplicationService.java:88] - Proxy Path :Demo
+2014-11-17 13:33:39.200  INFO [RpcCache.java:31] - Loaded Proxy : Hello
+2014-11-17 13:38:31.199  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-17 13:38:31.213  INFO [IceApplicationService.java:153] - setInterruptHook
+2014-11-17 13:38:31.215  INFO [IceApplicationService.java:100] - Ice.Application.main()
+2014-11-17 13:38:31.505  INFO [IceApplicationService.java:126] - RPCApplication waitForShutdown
+2014-11-17 13:38:31.649  INFO [IceApplicationService.java:60] - Loading Properties And Add Servants
+2014-11-17 13:38:31.650  INFO [IceApplicationService.java:69] - Servant Home :com.iceframework
+2014-11-17 13:38:34.330  INFO [IceApplicationService.java:142] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 13:38:34.339  INFO [RpcCache.java:28] - Proxy Path :Demo
+2014-11-17 13:38:34.393  INFO [RpcCache.java:42] - Loaded Proxy : Hello
+2014-11-17 13:40:32.636  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-17 13:40:32.647  INFO [IceApplicationService.java:153] - setInterruptHook
+2014-11-17 13:40:32.722  INFO [IceApplicationService.java:100] - Ice.Application.main()
+2014-11-17 13:40:32.930  INFO [IceApplicationService.java:126] - RPCApplication waitForShutdown
+2014-11-17 13:40:33.034  INFO [IceApplicationService.java:60] - Loading Properties And Add Servants
+2014-11-17 13:40:33.035  INFO [IceApplicationService.java:69] - Servant Home :com.iceframework
+2014-11-17 13:40:35.711  INFO [IceApplicationService.java:142] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 13:40:35.714  INFO [RpcCache.java:28] - Proxy Path :Demo
+2014-11-17 13:40:35.783  INFO [RpcCache.java:43] - Loaded Proxy : Hello
+2014-11-17 13:41:59.983  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-17 13:41:59.995  INFO [IceApplicationService.java:153] - setInterruptHook
+2014-11-17 13:42:00.003  INFO [IceApplicationService.java:100] - Ice.Application.main()
+2014-11-17 13:42:00.147  INFO [IceApplicationService.java:126] - RPCApplication waitForShutdown
+2014-11-17 13:42:00.222  INFO [IceApplicationService.java:60] - Loading Properties And Add Servants
+2014-11-17 13:42:00.223  INFO [IceApplicationService.java:69] - Servant Home :com.iceframework
+2014-11-17 13:42:02.911  INFO [IceApplicationService.java:142] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 13:42:02.913  INFO [RpcCache.java:28] - Proxy Path :Demo
+2014-11-17 13:42:02.959  INFO [RpcCache.java:43] - Loaded PrxHelper : HelloPrxHelper
+2014-11-17 13:42:02.960  INFO [RpcCache.java:55] - Loaded Proxy : Hello --- hello -t -e 1.1:tcp -h localhost -p 10000
+2014-11-17 13:42:34.144  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-17 13:42:34.156  INFO [IceApplicationService.java:153] - setInterruptHook
+2014-11-17 13:42:34.168  INFO [IceApplicationService.java:100] - Ice.Application.main()
+2014-11-17 13:42:34.326  INFO [IceApplicationService.java:126] - RPCApplication waitForShutdown
+2014-11-17 13:42:34.401  INFO [IceApplicationService.java:60] - Loading Properties And Add Servants
+2014-11-17 13:42:34.402  INFO [IceApplicationService.java:69] - Servant Home :com.iceframework
+2014-11-17 13:42:37.088  INFO [IceApplicationService.java:142] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 13:42:37.091  INFO [RpcCache.java:28] - Proxy Path :Demo
+2014-11-17 13:42:37.133  INFO [RpcCache.java:43] - Loaded PrxHelper : HelloPrxHelper
+2014-11-17 13:42:37.134  INFO [RpcCache.java:55] - Loaded Proxy : Hello *** hello -t -e 1.1:tcp -h localhost -p 10000
+2014-11-17 13:43:22.512  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-17 13:43:22.524  INFO [IceApplicationService.java:153] - setInterruptHook
+2014-11-17 13:43:22.533  INFO [IceApplicationService.java:100] - Ice.Application.main()
+2014-11-17 13:43:22.703  INFO [IceApplicationService.java:126] - RPCApplication waitForShutdown
+2014-11-17 13:43:22.777  INFO [IceApplicationService.java:60] - Loading Properties And Add Servants
+2014-11-17 13:43:22.778  INFO [IceApplicationService.java:69] - Servant Home :com.iceframework
+2014-11-17 13:43:25.449  INFO [IceApplicationService.java:142] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 13:43:25.457  INFO [RpcCache.java:28] - Proxy Path :Demo
+2014-11-17 13:43:25.500  INFO [RpcCache.java:43] - Loaded PrxHelper : HelloPrxHelper
+2014-11-17 13:43:25.501  INFO [RpcCache.java:55] - Loaded Proxy *** key:Hello ... value:hello -t -e 1.1:tcp -h localhost -p 10000
+2014-11-17 13:43:42.382  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-17 13:43:42.393  INFO [IceApplicationService.java:153] - setInterruptHook
+2014-11-17 13:43:42.428  INFO [IceApplicationService.java:100] - Ice.Application.main()
+2014-11-17 13:43:42.566  INFO [IceApplicationService.java:126] - RPCApplication waitForShutdown
+2014-11-17 13:43:42.658  INFO [IceApplicationService.java:60] - Loading Properties And Add Servants
+2014-11-17 13:43:42.659  INFO [IceApplicationService.java:69] - Servant Home :com.iceframework
+2014-11-17 13:43:45.341  INFO [IceApplicationService.java:142] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 13:43:45.343  INFO [RpcCache.java:28] - Proxy Path :Demo
+2014-11-17 13:43:45.391  INFO [RpcCache.java:43] - Loaded PrxHelper : HelloPrxHelper
+2014-11-17 13:43:45.399  INFO [RpcCache.java:55] - Loaded Proxy : hello -t -e 1.1:tcp -h localhost -p 10000
+2014-11-17 13:44:41.360  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-17 13:44:41.375  INFO [IceApplicationService.java:153] - setInterruptHook
+2014-11-17 13:44:41.382  INFO [IceApplicationService.java:100] - Ice.Application.main()
+2014-11-17 13:44:41.539  INFO [IceApplicationService.java:126] - RPCApplication waitForShutdown
+2014-11-17 13:44:41.578  INFO [IceApplicationService.java:60] - Loading Properties And Add Servants
+2014-11-17 13:44:41.580  INFO [IceApplicationService.java:69] - Servant Home :com.iceframework
+2014-11-17 13:44:44.296  INFO [IceApplicationService.java:142] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 13:44:44.299  INFO [RpcCache.java:28] - Proxy Path :Demo
+2014-11-17 13:44:44.338  INFO [RpcCache.java:43] - Loaded PrxHelper : HelloPrxHelper
+2014-11-17 13:44:44.339  INFO [RpcCache.java:52] - Loaded Proxy : Hello... hello -t -e 1.1:tcp -h localhost -p 10000
+2014-11-17 13:45:18.225  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-17 13:45:18.237  INFO [IceApplicationService.java:153] - setInterruptHook
+2014-11-17 13:45:18.245  INFO [IceApplicationService.java:100] - Ice.Application.main()
+2014-11-17 13:45:18.402  INFO [IceApplicationService.java:126] - RPCApplication waitForShutdown
+2014-11-17 13:45:18.437  INFO [IceApplicationService.java:60] - Loading Properties And Add Servants
+2014-11-17 13:45:18.439  INFO [IceApplicationService.java:69] - Servant Home :com.iceframework
+2014-11-17 13:45:21.162  INFO [IceApplicationService.java:142] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 13:45:21.171  INFO [RpcCache.java:28] - Proxy Path :Demo
+2014-11-17 13:45:21.213  INFO [RpcCache.java:43] - Loaded PrxHelper : HelloPrxHelper
+2014-11-17 13:45:21.214  INFO [RpcCache.java:52] - Loaded Proxy : Hello... hello -t -e 1.1:tcp -h localhost -p 10000
+2014-11-17 13:45:21.218 DEBUG [RpcCache.java:58] - get : key -- Hello
+2014-11-17 13:46:02.056  INFO [RpcServer.java:22] - Start IceApplication Server
+2014-11-17 13:46:02.068  INFO [IceApplicationService.java:153] - setInterruptHook
+2014-11-17 13:46:02.077  INFO [IceApplicationService.java:100] - Ice.Application.main()
+2014-11-17 13:46:02.243  INFO [IceApplicationService.java:126] - RPCApplication waitForShutdown
+2014-11-17 13:46:02.287  INFO [IceApplicationService.java:60] - Loading Properties And Add Servants
+2014-11-17 13:46:02.288  INFO [IceApplicationService.java:69] - Servant Home :com.iceframework
+2014-11-17 13:46:05.014  INFO [IceApplicationService.java:142] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 13:46:05.024  INFO [RpcCache.java:28] - Proxy Path :Demo
+2014-11-17 13:46:05.062  INFO [RpcCache.java:43] - Loaded PrxHelper : HelloPrxHelper
+2014-11-17 13:46:05.063  INFO [RpcCache.java:52] - Loaded Proxy : Hello... hello -t -e 1.1:tcp -h localhost -p 10000
+2014-11-17 13:46:05.063 DEBUG [RpcCache.java:58] - get : key -- Hello...ObjectPrxHelperBase
+2014-11-17 13:51:06.882  INFO [IceServer.java:22] - Start IceApplication Server
+2014-11-17 13:51:06.898  INFO [IceApplicationService.java:152] - setInterruptHook
+2014-11-17 13:51:06.919  INFO [IceApplicationService.java:99] - Ice.Application.main()
+2014-11-17 13:51:07.082  INFO [IceApplicationService.java:125] - RPCApplication waitForShutdown
+2014-11-17 13:51:07.141  INFO [IceApplicationService.java:59] - Loading Properties And Add Servants
+2014-11-17 13:51:07.143  INFO [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-17 13:51:09.849  INFO [IceApplicationService.java:141] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 13:51:09.852  INFO [IceCache.java:33] - Proxy Path :Demo
+2014-11-17 13:51:09.898  INFO [IceCache.java:48] - Loaded PrxHelper : HelloPrxHelper
+2014-11-17 13:51:09.899  INFO [IceCache.java:57] - Loaded Proxy : Hello... hello -t -e 1.1:tcp -h localhost -p 10000
+2014-11-17 13:51:09.903 DEBUG [IceCache.java:58] - class info : Hello...ObjectPrxHelperBase
+2014-11-17 13:51:09.903 DEBUG [IceCache.java:65] - get : key -- Hello...ObjectPrxHelperBase
+2014-11-17 13:54:00.349  INFO [IceServer.java:22] - Start IceApplication Server
+2014-11-17 13:54:00.361  INFO [IceApplicationService.java:152] - setInterruptHook
+2014-11-17 13:54:00.387  INFO [IceApplicationService.java:99] - Ice.Application.main()
+2014-11-17 13:54:00.540  INFO [IceApplicationService.java:125] - RPCApplication waitForShutdown
+2014-11-17 13:54:00.575  INFO [IceApplicationService.java:59] - Loading Properties And Add Servants
+2014-11-17 13:54:00.576  INFO [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-17 13:54:03.298  INFO [IceApplicationService.java:141] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 13:54:03.301  INFO [IceCache.java:33] - Proxy Path :Demo
+2014-11-17 13:54:03.339  INFO [IceCache.java:48] - Loaded PrxHelper : HelloPrxHelper
+2014-11-17 13:54:03.340  INFO [IceCache.java:57] - Loaded Proxy : Hello... hello -t -e 1.1:tcp -h localhost -p 10000
+2014-11-17 13:54:03.343 DEBUG [IceCache.java:58] - class info : Hello...ObjectPrxHelperBase
+2014-11-17 13:54:03.343 DEBUG [IceCache.java:65] - get : key -- Hello...ObjectPrxHelperBase
+2014-11-17 14:08:41.487  INFO [IceServer.java:22] - Start IceApplication Server
+2014-11-17 14:08:41.501  INFO [IceApplicationService.java:152] - setInterruptHook
+2014-11-17 14:08:41.537  INFO [IceApplicationService.java:99] - Ice.Application.main()
+2014-11-17 14:08:41.703  INFO [IceApplicationService.java:125] - RPCApplication waitForShutdown
+2014-11-17 14:08:41.753  INFO [IceApplicationService.java:59] - Loading Properties And Add Servants
+2014-11-17 14:08:41.790  INFO [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-17 14:08:44.467  INFO [IceApplicationService.java:141] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 14:08:44.474  INFO [IceCache.java:33] - Proxy Path :Demo
+2014-11-17 14:08:44.513  INFO [IceCache.java:48] - Loaded PrxHelper : HelloPrxHelper
+2014-11-17 14:08:44.514  INFO [IceCache.java:68] - Loaded Proxy : Hello... hello -t -e 1.1:tcp -h localhost -p 10000
+2014-11-17 14:08:44.515 DEBUG [IceCache.java:69] - class info : Hello...ObjectPrxHelperBase
+2014-11-17 14:08:44.515 DEBUG [IceCache.java:76] - get : key -- Hello...ObjectPrxHelperBase
+2014-11-17 14:11:45.208  INFO [IceServer.java:22] - Start IceApplication Server
+2014-11-17 14:11:45.223  INFO [IceApplicationService.java:152] - setInterruptHook
+2014-11-17 14:11:45.256  INFO [IceApplicationService.java:99] - Ice.Application.main()
+2014-11-17 14:11:45.405  INFO [IceApplicationService.java:125] - RPCApplication waitForShutdown
+2014-11-17 14:11:45.481  INFO [IceApplicationService.java:59] - Loading Properties And Add Servants
+2014-11-17 14:11:45.482  INFO [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-17 14:11:48.166  INFO [IceApplicationService.java:141] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 14:11:48.173  INFO [IceCache.java:33] - Proxy Path :Demo
+2014-11-17 14:11:48.215  INFO [IceCache.java:48] - Loaded PrxHelper : HelloPrxHelper
+2014-11-17 14:11:48.220  INFO [IceCache.java:68] - Loaded Proxy : Hello... hello -t -e 1.1:tcp -h localhost -p 10000
+2014-11-17 14:11:48.220 DEBUG [IceCache.java:69] - class info : Hello...ObjectPrxHelperBase
+2014-11-17 14:11:48.220 DEBUG [IceCache.java:76] - get : key -- Hello...ObjectPrxHelperBase
+2014-11-17 14:22:12.656  INFO [IceServer.java:22] - Start IceApplication Server
+2014-11-17 14:22:12.668  INFO [IceApplicationService.java:152] - setInterruptHook
+2014-11-17 14:22:12.675  INFO [IceApplicationService.java:99] - Ice.Application.main()
+2014-11-17 14:22:12.855  INFO [IceApplicationService.java:125] - RPCApplication waitForShutdown
+2014-11-17 14:22:12.903  INFO [IceApplicationService.java:59] - Loading Properties And Add Servants
+2014-11-17 14:22:12.907  INFO [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-17 14:22:15.604  INFO [IceApplicationService.java:141] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 14:22:15.609  INFO [IceCache.java:36] - Proxy Path :Demo
+2014-11-17 14:22:15.648  INFO [IceCache.java:51] - Loaded PrxHelper : HelloPrxHelper
+2014-11-17 14:22:15.742  INFO [IceCache.java:76] - Loaded Proxy : Hello... hello -t -e 1.1:tcp -h localhost -p 10000
+2014-11-17 15:34:45.440  INFO [IceServer.java:22] - Start IceApplication Server
+2014-11-17 15:34:45.452  INFO [IceApplicationService.java:152] - setInterruptHook
+2014-11-17 15:34:45.489  INFO [IceApplicationService.java:99] - Ice.Application.main()
+2014-11-17 15:34:45.616  INFO [IceApplicationService.java:125] - RPCApplication waitForShutdown
+2014-11-17 15:34:45.688  INFO [IceApplicationService.java:59] - Loading Properties And Add Servants
+2014-11-17 15:34:45.689  INFO [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-17 15:34:48.484  INFO [IceApplicationService.java:141] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 15:34:48.525  INFO [IceCache.java:36] - Proxy Path :Demo
+2014-11-17 15:34:48.604  INFO [IceCache.java:51] - Loaded PrxHelper : HelloPrxHelper
+2014-11-17 15:34:48.685  INFO [IceCache.java:76] - Loaded Proxy : Hello... hello -t -e 1.1:tcp -h localhost -p 10000
+2014-11-17 16:04:05.447  INFO [IceServer.java:22] - Start IceApplication Server
+2014-11-17 16:04:05.460  INFO [IceApplicationService.java:152] - setInterruptHook
+2014-11-17 16:04:05.469  INFO [IceApplicationService.java:99] - Ice.Application.main()
+2014-11-17 16:04:05.637  INFO [IceApplicationService.java:125] - RPCApplication waitForShutdown
+2014-11-17 16:04:05.675  INFO [IceApplicationService.java:59] - Loading Properties And Add Servants
+2014-11-17 16:04:05.676  INFO [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-17 16:04:08.393  INFO [IceApplicationService.java:141] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 16:04:08.399  INFO [IceCache.java:36] - Proxy Path :Demo
+2014-11-17 16:04:08.438  INFO [IceCache.java:51] - Loaded PrxHelper : HelloPrxHelper
+2014-11-17 16:04:08.465  INFO [IceCache.java:80] - Loaded Proxy : Hello... hello -t -e 1.1:tcp -h localhost -p 10000
+2014-11-17 16:05:28.486  INFO [IceServer.java:22] - Start IceApplication Server
+2014-11-17 16:05:28.497  INFO [IceApplicationService.java:152] - setInterruptHook
+2014-11-17 16:05:28.532  INFO [IceApplicationService.java:99] - Ice.Application.main()
+2014-11-17 16:05:28.713  INFO [IceApplicationService.java:125] - RPCApplication waitForShutdown
+2014-11-17 16:05:28.748  INFO [IceApplicationService.java:59] - Loading Properties And Add Servants
+2014-11-17 16:05:28.757  INFO [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-17 16:05:31.473  INFO [IceApplicationService.java:141] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 16:05:31.476  INFO [IceCache.java:36] - Proxy Path :Demo
+2014-11-17 16:05:31.513  INFO [IceCache.java:51] - Loaded PrxHelper : HelloPrxHelper
+2014-11-17 16:05:31.579 DEBUG [IceCache.java:72] - class info : Hello...HelloPrxHelper
+2014-11-17 16:05:31.585  INFO [IceCache.java:80] - Loaded Proxy : Hello... Hello -t -e 1.1:tcp -h localhost -p 10000
+2014-11-17 16:05:31.586 DEBUG [IceCache.java:87] - get : key -- Hello...ObjectPrxHelperBase
+2014-11-17 16:06:21.770  INFO [IceServer.java:22] - Start IceApplication Server
+2014-11-17 16:06:21.781  INFO [IceApplicationService.java:152] - setInterruptHook
+2014-11-17 16:06:21.789  INFO [IceApplicationService.java:99] - Ice.Application.main()
+2014-11-17 16:06:21.949  INFO [IceApplicationService.java:125] - RPCApplication waitForShutdown
+2014-11-17 16:06:21.986  INFO [IceApplicationService.java:59] - Loading Properties And Add Servants
+2014-11-17 16:06:21.987  INFO [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-17 16:06:24.710  INFO [IceApplicationService.java:141] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 16:06:24.713  INFO [IceCache.java:36] - Proxy Path :Demo
+2014-11-17 16:06:24.764  INFO [IceCache.java:51] - Loaded PrxHelper : HelloPrxHelper
+2014-11-17 16:06:24.801  INFO [IceCache.java:80] - Loaded Proxy : Hello... hello -t -e 1.1:tcp -h localhost -p 10000
+2014-11-17 16:09:52.262  INFO [IceServer.java:22] - Start IceApplication Server
+2014-11-17 16:09:52.274  INFO [IceApplicationService.java:152] - setInterruptHook
+2014-11-17 16:09:52.281  INFO [IceApplicationService.java:99] - Ice.Application.main()
+2014-11-17 16:09:52.464  INFO [IceApplicationService.java:125] - RPCApplication waitForShutdown
+2014-11-17 16:09:52.520  INFO [IceApplicationService.java:59] - Loading Properties And Add Servants
+2014-11-17 16:09:52.521  INFO [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-17 16:09:55.208  INFO [IceApplicationService.java:141] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 16:09:55.216  INFO [IceCache.java:36] - Proxy Path :Demo
+2014-11-17 16:09:55.260  INFO [IceCache.java:51] - Loaded PrxHelper : HelloPrxHelper
+2014-11-17 16:09:55.284 DEBUG [IceCache.java:72] - class info : Hello...HelloPrxHelper
+2014-11-17 16:09:55.288  INFO [IceCache.java:80] - Loaded Proxy : Hello... Hello -t -e 1.1:tcp -h localhost -p 10000
+2014-11-17 16:09:55.288 DEBUG [IceCache.java:87] - get : key -- Hello...ObjectPrxHelperBase
+2014-11-17 16:17:14.142  INFO [IceServer.java:22] - Start IceApplication Server
+2014-11-17 16:17:14.193  INFO [IceApplicationService.java:152] - setInterruptHook
+2014-11-17 16:17:14.195  INFO [IceApplicationService.java:99] - Ice.Application.main()
+2014-11-17 16:17:14.316  INFO [IceApplicationService.java:125] - RPCApplication waitForShutdown
+2014-11-17 16:17:14.384  INFO [IceApplicationService.java:59] - Loading Properties And Add Servants
+2014-11-17 16:17:14.385  INFO [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-17 16:17:17.154  INFO [IceApplicationService.java:141] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 16:17:17.163  INFO [IceCache.java:36] - Proxy Path :Demo
+2014-11-17 16:17:17.232  INFO [IceCache.java:51] - Loaded PrxHelper : HelloPrxHelper
+2014-11-17 16:17:17.297 DEBUG [IceCache.java:72] - class info : Hello...HelloPrxHelper
+2014-11-17 16:17:17.298  INFO [IceCache.java:80] - Loaded Proxy : Hello... Hello -t -e 1.1:tcp -h localhost -p 10000
+2014-11-17 16:17:17.298 DEBUG [IceCache.java:87] - get : key -- Hello...HelloPrxHelper
+2014-11-17 17:36:26.677  INFO [IceServer.java:22] - Start IceApplication Server
+2014-11-17 17:36:26.692  INFO [IceApplicationService.java:152] - setInterruptHook
+2014-11-17 17:36:26.708  INFO [IceApplicationService.java:99] - Ice.Application.main()
+2014-11-17 17:36:26.865  INFO [IceApplicationService.java:125] - RPCApplication waitForShutdown
+2014-11-17 17:36:26.927  INFO [IceApplicationService.java:59] - Loading Properties And Add Servants
+2014-11-17 17:36:26.927  INFO [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-17 17:37:06.912  INFO [IceServer.java:22] - Start IceApplication Server
+2014-11-17 17:37:06.928  INFO [IceApplicationService.java:152] - setInterruptHook
+2014-11-17 17:37:06.928  INFO [IceApplicationService.java:99] - Ice.Application.main()
+2014-11-17 17:37:07.068  INFO [IceApplicationService.java:125] - RPCApplication waitForShutdown
+2014-11-17 17:37:07.162  INFO [IceApplicationService.java:59] - Loading Properties And Add Servants
+2014-11-17 17:37:07.162  INFO [IceApplicationService.java:68] - Servant Home :com.iceframework
+2014-11-17 17:37:10.047  INFO [IceApplicationService.java:141] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de
+2014-11-17 17:37:10.062  INFO [IceCache.java:36] - Proxy Path :Demo
+2014-11-17 17:37:10.126  INFO [IceCache.java:51] - Loaded PrxHelper : HelloPrxHelper
+2014-11-17 17:37:10.188 DEBUG [IceCache.java:72] - class info : Hello...HelloPrxHelper
+2014-11-17 17:37:10.188  INFO [IceCache.java:80] - Loaded Proxy : Hello... Hello -t -e 1.1:tcp -h localhost -p 10000
+2014-11-17 17:37:10.188 DEBUG [IceCache.java:87] - get : key -- Hello...HelloPrxHelper
