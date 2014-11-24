@@ -49,16 +49,18 @@ public class Client extends Ice.Application {
 		setInterruptHook(new ShutdownHook());
 
 		/*
-		 * 代理实际上就是远程服务驻在本地的一个代表，创建 它时首先会和远程服务经行握手和状态确认等操作，Client所有的操作都是从过Proxy来办理的。
-		 * 代理又分为直接代理（已经知道服务端的位置及其他信 息）和间接代理（不知道服务器在哪里，由Registry注册器告诉它地址等信息）。
+		 * 代理实际上就是远程服务驻在本地的一个代表,创建 它时首先会和远程服务经行握手和状态确认等操作.
+		 * Client所有的操作都是从过Proxy来办理的。
+		 * 代理又分为直接代理,已经知道服务端的位置及其他信 息)和间接代理,不知道服务器在哪里,由Registry注册器告诉它地址等信息)。
 		 */
-		HelloPrx twoway = HelloPrxHelper.checkedCast(
+		HelloPrx twoway = HelloPrxHelper.checkedCast(	// checkedCast 会联系服务器
 				communicator()
 				.propertyToProxy("Hello.Proxy")
 				.ice_twoway()
 				.ice_timeout(-1)
 				.ice_secure(false));
 
+		System.out.println("Client : checkedCast");
 		if (twoway == null) {
 			System.err.println("invalid proxy");
 			return 1;
@@ -69,17 +71,17 @@ public class Client extends Ice.Application {
 		 * ICE采用的网络协议有TCP、UDP以及SSL三 种,不同于WebService,ICE在调用模式上有好几种选择方案,
 		 * 并且每种方案正对不同的网络协议的特性做了相应的选择。
 		 *
-		 * 不同的调用模式其实对应着不动的业务，对于大部分的有返回值的或需要实时响应的方法，我们可能都采用Twoway方式调用，
-		 * 对于一些无需返回值或 者不依赖返回值的业务，我们可以用Oneway或者BatchOneway方式，例如消息通知；
-		 * 剩下的Datagram和BatchDatagram方式 一般用在无返回值且不做可靠性检查的业务上，例如日志。
+		 * 不同的调用模式其实对应着不动的业务,对于大部分的有返回值的或需要实时响应的方法,我们可能都采用Twoway方式调用,
+		 * 对于一些无需返回值或 者不依赖返回值的业务,我们可以用Oneway或者BatchOneway方式,例如消息通知；
+		 * 剩下的Datagram和BatchDatagram方式 一般用在无返回值且不做可靠性检查的业务上,例如日志。
 		 */
-		// Oneway(单 向调用)：客户端只需将调用注册到本地传输缓冲区（Local Transport Buffers）后就立即返回,并不对调用结果负责。
+		// Oneway(单 向调用)：客户端只需将调用注册到本地传输缓冲区,Local Transport Buffers)后就立即返回,并不对调用结果负责。
 		HelloPrx oneway = (HelloPrx) twoway.ice_oneway();
-		// Twoway（双 向调用）：最通用的模式,同步方法调用模式,只能用TCP或SSL协议。
+		// Twoway,双 向调用)：最通用的模式,同步方法调用模式,只能用TCP或SSL协议。
 		HelloPrx batchOneway = (HelloPrx) twoway.ice_batchOneway();
-		// Datagram（数据报）：类似于Oneway调用,不同的是 Datagram调用只能采用UDP协议而且只能调用无返回值和无输出参数的方法。
+		// Datagram,数据报)：类似于Oneway调用,不同的是 Datagram调用只能采用UDP协议而且只能调用无返回值和无输出参数的方法。
 		HelloPrx datagram = (HelloPrx) twoway.ice_datagram();
-		// BatchDatagram（批量数据报同BatchOneway批量单向调用类似）：先将调用存 在调用缓冲区里面,到达一定限额后自动批量发送所有请求（也可手动刷除缓冲区）。
+		// BatchDatagram,批量数据报同BatchOneway批量单向调用类似)：先将调用存 在调用缓冲区里面,到达一定限额后自动批量发送所有请求,也可手动刷除缓冲区)。
 		HelloPrx batchDatagram = (HelloPrx) twoway.ice_batchDatagram();
 
 
@@ -108,15 +110,13 @@ public class Client extends Ice.Application {
 					batchOneway.sayHello(delay);
 				} else if (line.equals("d")) {
 					if (secure) {
-						System.out
-								.println("secure datagrams are not supported");
+						System.out.println("secure datagrams are not supported");
 					} else {
 						datagram.sayHello(delay);
 					}
 				} else if (line.equals("D")) {
 					if (secure) {
-						System.out
-								.println("secure datagrams are not supported");
+						System.out.println("secure datagrams are not supported");
 					} else {
 						batchDatagram.sayHello(delay);
 					}

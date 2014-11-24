@@ -38,10 +38,10 @@ Ice.Warn.Connections=1
 #
 # SSL Configuration
 #
-Ice.Plugin.IceSSL=IceSSL.PluginFactory
-IceSSL.DefaultDir=../../../certs
-IceSSL.Keystore=client.jks
-IceSSL.Password=password
+#Ice.Plugin.IceSSL=IceSSL.PluginFactory
+#IceSSL.DefaultDir=../../../certs
+#IceSSL.Keystore=client.jks
+#IceSSL.Password=password
 
 #
 # IceMX configuration.

@@ -33,6 +33,7 @@ public class Server extends Ice.Application {
 
 		adapter.activate();
 
+		System.out.println("服务器加载完成");
 		communicator().waitForShutdown();
 		return 0;
 	}
