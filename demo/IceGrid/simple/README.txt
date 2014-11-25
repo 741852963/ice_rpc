@@ -50,3 +50,7 @@ following warning:
 This issue can be resolved by granting appropriate permissions to the
 node's user account. Please refer to the Troubleshooting section of
 Appendix H in the Ice manual for more information.
+
+---------------------------------------------------------------------------------------------------------
+application.xml
+
