@@ -60,11 +60,11 @@ public class Client extends Ice.Application {
 				.ice_timeout(-1)
 				.ice_secure(false));
 
-		System.out.println("Client : checkedCast");
 		if (twoway == null) {
 			System.err.println("invalid proxy");
 			return 1;
 		}
+		System.out.println("Client : checkedCast  " + twoway.getClass().getSimpleName());
 
 		/*
 		 * ICE调用模式
