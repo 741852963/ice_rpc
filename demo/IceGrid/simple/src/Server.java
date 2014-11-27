@@ -1,5 +1,6 @@
 
 public class Server extends Ice.Application {
+
 	public int run(String[] args) {
 		if (args.length > 0) {
 			System.err.println(appName() + ": too many arguments");
@@ -20,4 +21,5 @@ public class Server extends Ice.Application {
 		int status = app.main("Server", args);
 		System.exit(status);
 	}
+
 }

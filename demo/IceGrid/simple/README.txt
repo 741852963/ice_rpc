@@ -1,11 +1,10 @@
-To run the demo, first start the IceGrid service:
+运行该demo首先需要启动ice服务
 
 $ icegridnode --Ice.Config=config.grid
 
-In a separate window:
+然后再运行下面的命令:
 
-$ icegridadmin --Ice.Config=config.grid -e \
-    "application add 'application.xml'"
+$ icegridadmin --Ice.Config=config.grid -e "application add 'application.xml'"
 $ java Client
 
 This will deploy the application described in the file
@@ -27,16 +26,14 @@ application:
 If you have already deployed the application, you can update it to try
 a new set of descriptors, for example:
 
-$ icegridadmin --Ice.Config=config.grid -e \
-    "application update 'application_with_template.xml'"
+$ icegridadmin --Ice.Config=config.grid -e "application update 'application_with_template.xml'"
 
 When using the descriptors from 'application_with_template.xml' or
 'application_with_replication.xml', you can easily deploy more servers
 based on the `SimpleServer' template. For example, you can use the
 following command to deploy a new server:
 
-$ icegridadmin --Ice.Config=config.grid -e \
-    "server template instantiate Simple node1 SimpleServer index=4"
+$ icegridadmin --Ice.Config=config.grid -e "server template instantiate Simple node1 SimpleServer index=4"
 
 
 Vista Note
