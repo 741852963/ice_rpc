@@ -10,7 +10,6 @@ import Ice.Identity;
 import Ice.Properties;
 
 /**
- * 使用枚举单例 不使用Ice.Application 使用原始版本的Communicator
  *
  * @author Administrator
  *
@@ -53,7 +52,7 @@ public enum IceUtilService {
 	}
 
 	/**
-	 * 注册Servant
+	 * 注锟斤拷Servant
 	 *
 	 * @param holder
 	 */

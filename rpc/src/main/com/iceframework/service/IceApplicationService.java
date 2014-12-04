@@ -12,8 +12,8 @@ import Ice.Identity;
 import Ice.Properties;
 
 /**
- * Ê¹ÓÃÃ¶¾Ùµ¥Àı
- * ÄÚ²¿·â×°ÁËIce.Application
+ * ä½¿ç”¨æšä¸¾å•ä¾‹
+ * å†…éƒ¨å°è£…äº†Ice.Application
  *
  * @author Administrator
  *
@@ -27,7 +27,7 @@ public enum IceApplicationService {
 	private final RPCApplication app = new RPCApplication();;
 
 	private IceApplicationService() {
-		initCommunicator();	// TODO ¼ì²éÒİ³ö
+		initCommunicator();	// TODO æ£€æŸ¥é€¸å‡º
 	}
 
 	private void initCommunicator() {
@@ -36,14 +36,14 @@ public enum IceApplicationService {
 
 			app.setInterruptHook();
 
-			// ¹¹½¨Í¨ĞÅÆ÷
+			// æ„å»ºé€šä¿¡å™¨
 			CreateThread t = new CreateThread(app);
 			t.start();
 
-			// µÈ´ıÍ¨ĞÅÆ÷¹¹ÔìÍê³É
-			while(t.getState() != Thread.State.WAITING) {}	// TODO ĞÔÄÜ
+			// ç­‰å¾…é€šä¿¡å™¨æ„é€ å®Œæˆ
+			while(t.getState() != Thread.State.WAITING) {}		// TODO æ€§èƒ½
 
-			// ¼ÓÔØ¹«¹²µÄÅäÖÃÎÄ¼ş
+			// åŠ è½½å…¬å…±çš„é…ç½®æ–‡ä»¶
 			Properties props = Application.communicator().getProperties();
 			props.load(IceConstant.CONFIG_SERVER_FILE.toString());
 
@@ -51,36 +51,40 @@ public enum IceApplicationService {
 	}
 
 	/**
-	 * Í¨¹ıString fileÀ´¼ÓÔØ·şÎñÆ÷µÄÅäÖÃÎÄ¼ş
+	 * é€šè¿‡String fileæ¥åŠ è½½æœåŠ¡å™¨çš„é…ç½®æ–‡ä»¶
 	 * @param file
 	 */
-	public void startSever() {
+	public void startSever(String servantHomeStr, String endpoints) {
 
-		logger.info("Loading Properties And Add Servants");
+		logger.info("Loading Properties -- " + IceConstant.CONFIG_ENDPOINTS_FILE.toString());
 
-		// ¼ÓÔØ·şÎñ¶ËÅäÖÃÎÄ¼ş
+		// åŠ è½½æœåŠ¡ç«¯é…ç½®æ–‡ä»¶
 		Properties props = Application.communicator().getProperties();
 		props.load(IceConstant.CONFIG_ENDPOINTS_FILE.toString());
 
-		// ×¢²áServant
-		String servantHome = props.getProperty("servant_home");
+		// æ³¨å†ŒServant
+		String servantHome = props.getProperty(servantHomeStr);
 		for (String servant : servantHome.split(";")) {
 			logger.info("Servant Home : " + servant);
-			app.addServantBy(servant);
+			app.addServantBy(servant, endpoints);
 		}
 
 	}
 
+
+
+
 	/**
-	 * Í¨¹ıString fileÀ´¼ÓÔØ¿Í»§¶ËµÄÅäÖÃÎÄ¼ş
+	 * Í¨ é€šè¿‡String fileæ¥åŠ è½½å®¢æˆ·ç«¯çš„é…ç½®æ–‡ä»¶
 	 * @param file
 	 */
-	public void startClient() {
+	public void startClient(String proxyPath) {
 
-		// ¼ÓÔØ¿Í»§¶ËÅäÖÃÎÄ¼ş
+		// åŠ è½½å®¢æˆ·ç«¯é…ç½®æ–‡ä»¶
 		Properties props = Application.communicator().getProperties();
-		props.load(IceConstant.CONFIG_PROXY_FILE.toString());
+		props.load(proxyPath);
 
+		logger.debug("Client init config ");
 	}
 
 
@@ -97,18 +101,18 @@ public enum IceApplicationService {
 		@Override
 		public void run() {
 			ctLogger.info("Ice.Application.main()");
-			// ¶ÔRPCApplication ÀïµÄ_communicator ³õÊ¼»¯,±£Ö¤Õû¸öappÖĞÖ»ÓĞÒ»¸ö_communicator
-			// ÊµÏÖ·şÎñ¶ËºÍ¿Í»§¶Ë¶Ô_communicatorµÄ¹²Ïí
+			// å¯¹RPCApplication é‡Œçš„_communicator åˆå§‹åŒ–,ä¿è¯æ•´ä¸ªappä¸­åªæœ‰ä¸€ä¸ª_communicator
+			// å®ç°æœåŠ¡ç«¯å’Œå®¢æˆ·ç«¯å¯¹_communicatorçš„å…±äº«
 			app.main("Service", new String[0]);
 		}
 	}
 
 	/**
-	 * IceRuntimeÎ¬³Ö£º¿Í»§¶ËÏß³Ì³Ø, ·şÎñÆ÷¶ËÏß³Ì³Ø, ÅäÖÃÊôĞÔ, ¶ÔÏó¹¤³§,
-	 * 				   Ò»¸öÈÕÖ¾¼ÇÂ¼Æ÷¶ÔÏó, Ò»¸öÍ³¼Æ¶ÔÏó, Ò»¸öÈ±Ê¡Â·ÓÉÆ÷,
-	 * 				   Ò»¸öÈ±Ê¡¶¨Î»Æ÷, Ò»¸ö²å¼ş¹ÜÀíÆ÷
+	 * IceRuntimeç»´æŒï¼šå®¢æˆ·ç«¯çº¿ç¨‹æ± , æœåŠ¡å™¨ç«¯çº¿ç¨‹æ± , é…ç½®å±æ€§, å¯¹è±¡å·¥å‚,
+	 * 				   ä¸€ä¸ªæ—¥å¿—è®°å½•å™¨å¯¹è±¡, ä¸€ä¸ªç»Ÿè®¡å¯¹è±¡, ä¸€ä¸ªç¼ºçœè·¯ç”±å™¨,
+	 * 				   ä¸€ä¸ªç¼ºçœå®šä½å™¨, ä¸€ä¸ªæ’ä»¶ç®¡ç†å™¨
 	 *
-	 * ¿ÉÒÔÍ¨¹ıcommunicator() »ñµÃÉÏÊö²¿·ÖÄ£¿é
+	 * å¯ä»¥é€šè¿‡communicator() è·å¾—ä¸Šè¿°éƒ¨åˆ†æ¨¡å—
 	 *
 	 * @author Administrator
 	 *
@@ -116,26 +120,28 @@ public enum IceApplicationService {
 	private static class RPCApplication extends Ice.Application {
 
 		private Logger rpcLogger = Logger.getLogger(RPCApplication.class);
-
+		private Ice.ObjectAdapter adapter = null;
 		@Override
 		public int run(String[] args) {
 			/**
-			 * ÄÚ²¿µ÷ÓÃÁËObjectµÄwait()
+			 * å†…éƒ¨è°ƒç”¨äº†Objectçš„wait()
 			 */
 			rpcLogger.info("RPCApplication waitForShutdown");
 			communicator().waitForShutdown();
 			return 0;
 		}
 
-		public void addServantBy(String path) {
+		public void addServantBy(String path, String endpoints) {
 			try {
+
+				if(adapter == null)
+					adapter = communicator().createObjectAdapter(endpoints);
 
 				List<Class> servants = ClassFinder.findClasses(path, "I");
 				for (Class clazz : servants) {
 					String classNameI = clazz.getSimpleName();
 					String className = classNameI.substring(0, classNameI.length() - 1);
 
-					Ice.ObjectAdapter adapter = communicator().createObjectAdapter(className);
 					Identity identity = communicator().stringToIdentity(className);
 					adapter.add((Ice.Object) clazz.newInstance(), identity);
 					rpcLogger.info("Add Servant : " + className + ".Endpoints" + " --- " + identity);

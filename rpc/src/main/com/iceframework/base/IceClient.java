@@ -1,7 +1,5 @@
 package com.iceframework.base;
 
-import Demo.HelloPrx;
-
 import com.iceframework.service.IceApplicationService;
 
 public enum IceClient {
@@ -13,11 +11,9 @@ public enum IceClient {
 	}
 
 	private void start() {
-		IceApplicationService.INSTANCE.startClient();
+		IceApplicationService.INSTANCE.startClient(IceConstant.CONFIG_PROXY_FILE.toString());
 	}
 
-	public HelloPrx getHello() {
-		return (HelloPrx)IceCache.INSTANCE.getObjectPrx("Hello");
-	}
+
 
 }

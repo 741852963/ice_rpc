@@ -1,0 +1,17 @@
+
+这个是客户端使用到的配置文件(指定使用TCP协议)
+Hello.Proxy=hello:tcp -h localhost -p 10000
+
+Ice.ObjectAdapter adapter = communicator().createObjectAdapter("Hello");
+adapter.add(new CallbackReceiverI(), communicator().stringToIdentity("hello"));
+adapter.activate();
+
+
+
+
+这个是服务器端使用到的配置文件(指定使用TCP协议)
+Hello.Endpoints=tcp -h localhost -p 10000
+
+Ice.ObjectAdapter adapter = communicator().createObjectAdapter("Hello");
+adapter.add(new CallbackSenderI(), communicator().stringToIdentity("hello"));
+adapter.activate();

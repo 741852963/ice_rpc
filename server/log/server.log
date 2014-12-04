@@ -1,0 +1,7 @@
+2014-12-04 15:54:11.490  INFO [IceServer.java:25] - Start IceApplication Server
+2014-12-04 15:54:11.505  INFO [IceApplicationService.java:158] - setInterruptHook
+2014-12-04 15:54:11.521  INFO [IceApplicationService.java:103] - Ice.Application.main()
+2014-12-04 15:54:11.912  INFO [IceApplicationService.java:129] - RPCApplication waitForShutdown
+2014-12-04 15:54:11.959  INFO [IceApplicationService.java:59] - Loading Properties -- config.endpoints
+2014-12-04 15:54:11.959  INFO [IceApplicationService.java:68] - Servant Home : com.iceframework
+2014-12-04 15:54:14.954  INFO [IceApplicationService.java:147] - Add Servant : Hello.Endpoints --- Ice.Identity@1457c4de

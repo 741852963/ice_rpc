@@ -1,0 +1,5 @@
+#
+# The client reads this property to create the reference to the
+# "hello" object in the server.
+# ≈‰÷√–Œ Ω£∫A.Proxy=A:tcp -h localhost -p 10000
+Hello.Proxy=Hello:tcp -h localhost -p 10000

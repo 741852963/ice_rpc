@@ -11,8 +11,8 @@ public class TestServer {
 	@Test
 //	@Ignore
 	public void test_startIceApplication() {
-		IceServer.INSTANCE.startIceApplicationServer();
-		IceClient.INSTANCE.getHello().sayHello(0);
+//		IceServer.INSTANCE.startIceApplicationServer();
+//		IceClient.INSTANCE.getHello().sayHello(0);
 	}
 
 	@Test
