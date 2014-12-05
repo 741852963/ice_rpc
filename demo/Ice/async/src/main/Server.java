@@ -16,10 +16,11 @@ public class Server extends Ice.Application {
 		setInterruptHook(new ShutdownHook());
 
 		Ice.ObjectAdapter adapter = communicator().createObjectAdapter("Hello");
+
 		_workQueue = new WorkQueue();
-		adapter.add(new HelloI(_workQueue),
-				communicator().stringToIdentity("hello"));
+		adapter.add(new HelloI(_workQueue), communicator().stringToIdentity("hello"));
 		_workQueue.start();
+
 		adapter.activate();
 
 		communicator().waitForShutdown();

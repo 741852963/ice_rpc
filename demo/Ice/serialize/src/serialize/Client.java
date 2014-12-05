@@ -1,10 +1,9 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+package serialize;
+import demo.GreetPrx;
+import demo.GreetPrxHelper;
 
-import Demo.*;
 
 public class Client extends Ice.Application {
-
 	class ShutdownHook extends Thread {
 		public void run() {
 			try {
@@ -15,32 +14,10 @@ public class Client extends Ice.Application {
 		}
 	}
 
-	public class Callback_Hello_sayHelloI extends Callback_Hello_sayHello {
-
-		@Override
-		public void response() {
-		}
-
-		@Override
-		public void exception(Ice.LocalException ex) {
-			System.err.println("sayHello AMI call failed:");
-			ex.printStackTrace();
-		}
-
-		@Override
-		public void exception(Ice.UserException ex) {
-			if (ex instanceof Demo.RequestCanceledException) {
-				System.out.println("Demo.RequestCanceledException");
-			} else {
-				ex.printStackTrace();
-			}
-		}
-	}
-
 	private static void menu() {
-		System.out.println("usage:\n" + "i: 直接发送  greeting\n"
-				+ "d: 延迟发送 greeting\n" + "s: 关闭 server\n"
-				+ "x: 离开\n" + "?: 帮助\n");
+		System.out.println("usage:\n" + "g: send greeting\n"
+				+ "t: toggle null greeting\n" + "s: shutdown server\n"
+				+ "x: exit\n" + "?: help\n");
 	}
 
 	public int run(String[] args) {
@@ -49,21 +26,31 @@ public class Client extends Ice.Application {
 			return 1;
 		}
 
+		//
 		// Since this is an interactive demo we want to clear the
 		// Application installed interrupt callback and install our
 		// own shutdown hook.
+		//
 		setInterruptHook(new ShutdownHook());
 
-		HelloPrx hello = HelloPrxHelper.checkedCast(communicator()
-				.propertyToProxy("Hello.Proxy"));
-		if (hello == null) {
+		GreetPrx greet = GreetPrxHelper.checkedCast(communicator()
+				.propertyToProxy("Greet.Proxy"));
+		if (greet == null) {
+
 			System.err.println("invalid proxy");
 			return 1;
 		}
 
+		MyGreeting greeting = new MyGreeting();
+		greeting.text = "Hello there!";
+		MyGreeting nullGreeting = null;
+
+		boolean sendNull = false;
+
 		menu();
 
-		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+		java.io.BufferedReader in = new java.io.BufferedReader(
+				new java.io.InputStreamReader(System.in));
 
 		String line = null;
 		do {
@@ -74,24 +61,31 @@ public class Client extends Ice.Application {
 				if (line == null) {
 					break;
 				}
-				if (line.equals("i")) {
-					hello.sayHello(0);
+				if (line.equals("g")) {
+					if (sendNull) {
+						greet.sendGreeting(nullGreeting);
+					} else {
+						greet.sendGreeting(greeting);
+					}
 
-				} else if (line.equals("d")) {
-					hello.begin_sayHello(5000, new Callback_Hello_sayHelloI());
+				} else if (line.equals("t")) {
+					sendNull = !sendNull;
 
 				} else if (line.equals("s")) {
-					hello.shutdown();
+					greet.shutdown();
 
 				} else if (line.equals("x")) {
 					// Nothing to do
 
+				} else if (line.equals("?")) {
+					menu();
 				} else {
 					System.out.println("unknown command `" + line + "'");
 					menu();
-
 				}
-			} catch (final Exception ex) {
+			} catch (java.io.IOException ex) {
+				ex.printStackTrace();
+			} catch (Ice.LocalException ex) {
 				ex.printStackTrace();
 			}
 		} while (!line.equals("x"));

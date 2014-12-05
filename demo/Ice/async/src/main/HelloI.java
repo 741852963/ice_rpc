@@ -1,6 +1,9 @@
 import Demo.*;
 
 public class HelloI extends _HelloDisp {
+
+	private static final long serialVersionUID = 7428114971115946074L;
+
 	public HelloI(WorkQueue workQueue) {
 		_workQueue = workQueue;
 	}
