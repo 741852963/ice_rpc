@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="generated"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="com.zeroc.Slice2JavaPlugin.ICE_FRAMEWORK"/>
+	<classpathentry kind="lib" path="D:/public/ice_rpc/icelibs/libs/lib/Glacier2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

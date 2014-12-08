@@ -1,0 +1,78 @@
+<project name="cwa-sanguo-rpc" default="dist" basedir=".">
+<!-- defind all parameters -->
+<property name="slice" value="slice"/>
+
+<property name="generated" value="generated"/>
+<property name="dist" value="dist"/>
+<property name="build" value="build"/>
+
+
+ <!-- [modify]** Set the SETUP_HOME of the ICE.** -->
+<!--property name="ice.home" value="C:\Program Files (x86)\ZeroC\Ice-3.5.1"/ -->
+
+
+<path id="lib.path">
+        <fileset dir="lib">
+            <include name="**/*.jar"/>
+        </fileset>
+</path>
+
+ <!-- prepare environment and 'slice2java' command support. -->
+ <target name="preDefine" depends="clear" description="Slice: add all prepared defines.">
+ <mkdir dir="${generated}" />
+ <!--taskdef name="slice2java"  classpath="${ice.home}/lib/ant-ice.jar"   classname="Slice2JavaTask" / -->
+
+
+ <taskdef name="slice2java"   classname="Slice2JavaTask">
+ 	<classpath refid="lib.path"/>
+	</taskdef>
+ </target>
+
+ <!-- run slice2java -->
+ <target name="slice2java.compile"   depends="preDefine"    description="Slice: compile all *.ice.">
+    <slice2java outputdir="${generated}" includepath="${slice}">
+      <fileset dir="${slice}">
+      	<include name="**/*.ice"/>
+      </fileset>
+    </slice2java>
+    <mkdir dir="${build}/classes"/>
+  </target>
+
+  <!--  generated jar -->
+   <target name="compile" depends="slice2java.compile" description="compile the source" >
+        <!-- Compile the java code from ${src} into ${build} -->
+        <javac srcdir="${generated}"
+               destdir="${build}/classes"
+               source="1.7"
+               target="1.7"
+               debug="on"
+               encoding ="utf-8">
+            <classpath refid="lib.path"/>
+        </javac>
+    </target>
+
+    <target name="dist" depends="compile" description="generate the distribution" >
+        <!-- Create the distribution directory -->
+        <mkdir dir="${dist}/lib"/>
+
+
+        <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
+        <jar jarfile="${dist}/lib/${ant.project.name}.jar" basedir="${build}/classes" />
+
+        <copy todir="${dist}/lib">
+            <fileset dir="lib">
+                <include name="**/*.jar"/>
+         <include name="**/*.txt"/>
+            </fileset>
+        </copy>
+    	
+    </target>
+
+
+ <!-- clear slice2java -->
+   <target name="clear"    description="Slice: delete generated directory  to clear *.java from *.ice.">
+       <delete dir="${generated}"/>
+       <delete dir="${dist}"/>
+       <delete dir="${build}"/>
+   </target>
+</project>

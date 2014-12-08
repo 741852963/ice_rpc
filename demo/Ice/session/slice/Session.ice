@@ -16,8 +16,7 @@ interface Session
     // The created object will be automatically destroyed when the session is destroyed.
     Hello* createHello();
 
-    // Refresh a session. If a session is not refreshed on a regular basis by the client,
-    // it will be automatically destroyed.
+    // Refresh a session. If a session is not refreshed on a regular basis by the client, it will be automatically destroyed.
     idempotent void refresh();
 
     idempotent string getName();
